@@ -10,10 +10,30 @@ body{
 	
 }
 .container{
-	width:90%;
-	height:80%;
+	
 	display:flex;
-	flex-direction:row;
-	gap:4%;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+}
+.panel{
+	width:200px;
+	margin:10px;
+	overflow:hidden;
+	transition: width: 0.5s;
+	
+	cursor:pointer;
+}
+.panel.active{
+	width:400px;
+}
+.panel img{
+	width:100%;
+	height:auto;
+	border-radius:5px;
+}
+.img-text{
+	padding:center;
+	text-align:center;
 	
 }
