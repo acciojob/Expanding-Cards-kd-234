@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width:100%;
+	box-sizing:none;
+	text-decoration:none;
+	
+}
+.container{
+	width:90%;
+	height:80%;
+	display:flex;
+	flex-direction:row;
+	gap:4%;
+	
+}
